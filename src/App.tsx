@@ -1,18 +1,11 @@
 import { useState } from "react";
 import "./app.css";
 import { v4 as uuid } from "uuid";
-<<<<<<< HEAD
+
 import kuru1 from "/assets/kuru1.mp3";
 import kuru2 from "/assets/kuru2.mp3";
 import kuruto from "/assets/kuruto.mp3";
 const AUDIO = [kuru1, kuru2, kuruto];
-=======
-const AUDIO = [
-  "./assets/kuru1.mp3",
-  "./assets/kuru2.mp3",
-  "./public/assets/kuruto.mp3",
-];
->>>>>>> cd8409e0d1628db3da5e82daa07eda083ce38d57
 const GIF = ["./assets/hertaa1.gif", "./assets/hertaa2.gif"];
 
 type Kururu = {
