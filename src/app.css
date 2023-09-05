@@ -1,0 +1,79 @@
+.btn-cont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 6rem;
+  position: relative;
+}
+.btn-cont h1 {
+  color: white;
+}
+.herta-bg {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  opacity: 0.2;
+  z-index: -2;
+}
+.btn-cont p {
+  color: #574f84;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.counter-btn {
+  position: relative;
+  background-color: #574f84;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  min-width: 120px;
+  overflow: hidden;
+  box-shadow: 6px 7px 40px -4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out,
+    scale 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  font-weight: 100;
+  font-family: Naruto;
+}
+.counter-btn:hover {
+  background-color: #413b61;
+}
+.audio {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.herta {
+  position: absolute;
+  top: 200px;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-name: hertaDance;
+  transition: all 0.3s ease;
+}
+
+@keyframes hertaDance {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: -100%;
+  }
+}
+.dev {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.greetings {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
